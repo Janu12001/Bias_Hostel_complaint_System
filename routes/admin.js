@@ -10,6 +10,7 @@ router.post("/", adminController.admin_post);
 
 router.get("/adminDashboard" , admin_Auth, adminController.adminDashboard);
 router.post("/delete", adminController.adminDashboard_delete);
+router.post("/update", adminController.adminDashboard_update);
 
 module.exports = router;
 

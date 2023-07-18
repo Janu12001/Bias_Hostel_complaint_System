@@ -9,6 +9,10 @@ body{
     overflow: hidden;
 }
 
+.col{
+    background-color: #0298cf;
+}
+
 .table{
     width: 100%;
 }
@@ -36,7 +40,7 @@ button{
     cursor: pointer;
     padding: 10px;
     color: #ffffff;
-    /* background-color: #f80000; */
+    background-color: #f80000;
 }
 
 td button:nth-child(1){
@@ -45,6 +49,29 @@ td button:nth-child(1){
 }
 
 td button:nth-child(2){
+    height: 42px;
+    width: 40px;
+    background-color: #f80000;
+}
+
+.lasttd{
+    display: flex;
+    height: 68px;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.form1{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.resolveBtn{
+    width: 90px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
     background-color: #f80000;
 }
 
@@ -66,7 +93,7 @@ td button:nth-child(2){
 table{
     width: 100%;
     table-layout: fixed;
-    min-width: 1000px;
+    min-width: 1500px;
     border-collapse: collapse;
 }
 

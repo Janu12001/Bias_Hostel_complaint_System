@@ -63,10 +63,18 @@
                                     <img src="/uploads/<%=item.image%>">
                                 </td>
                                 <td>
-                                    <form action="/admin/delete" method="post">
-                                        <span class="popup_btn"><i class="detail fa-solid fa-circle-info fa-lg"></i></span>
-                                        <button name="TargetToDelete" value="<%=item._id%>"><i class="fa-solid fa-trash"></i></button>
-                                    </form>
+                                    <div class="lasttd">
+                                        <form class="form1" action="/admin/delete" method="post">
+                                            <span class="popup_btn"><i
+                                                    class="detail fa-solid fa-circle-info fa-lg"></i></span>
+                                            <button name="TargetToDelete" value=<%=item._id%>><i
+                                                    class="fa-solid fa-trash"></i></button>
+                                        </form>
+                                        <form action="/admin/update" method="post">
+                                            <button class="resolveBtn" name="TargetToUpdate"
+                                                value=<%=item._id%>><%=item.status%></button>
+                                        </form>
+                                    </div>
                                 </td>
                             </tr>
                             <%})%>
@@ -81,20 +89,20 @@
         </div>
 
         <!-------------------------------- Popup Div --------------------------------->
-        
+
         <div class="popup">
             <div class="popup-inner">
                 <div class="project-popup-content">
                     <span class="project-popup-close">
                         <i class="fa fa-solid fa-xmark"></i>
-                      </span>
+                    </span>
 
                     <div class="popup-img">
-                        <img class="popup-img-inner" src="../Images/bias1.jpeg" alt="complain-img">
+                        <img class="popup-img-inner" src="" alt="complain-img">
                     </div>
                     <div class="popup-detail">
                         <h2>Complain Detail</h2>
-                        <p class="popup-detail-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium non dolorum fugit. Odio.</p>
+                        <p class="popup-detail-p">Complain</p>
                     </div>
                 </div>
             </div>

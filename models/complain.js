@@ -11,6 +11,8 @@ const complainSchema = new mongoose.Schema({
     building: String,
     roomNumber: Number,
     complainText: String,
+    userID: String,
+    status: String,
     image: {type: String,
         required: false,
         default: "noImage.png"

@@ -16,7 +16,6 @@ const student_auth = async (req, res, next)=> {
 
         req.token = token;
         req.user = studentDetail;
-        
         next();
     }
     catch(err){

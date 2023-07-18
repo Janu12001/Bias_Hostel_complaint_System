@@ -32,7 +32,7 @@ module.exports.admin_logout = async function(req, res){
         //  await req.user.save();
 
         //logout from all devices
-        req.user.tokens = [];
+         req.user.tokens = [];
 
          res.clearCookie("admin_jwt");
          await req.user.save();
