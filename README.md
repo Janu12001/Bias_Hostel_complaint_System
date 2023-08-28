@@ -2,4 +2,5 @@
 
 ## TECHNLOGIES USED
   -HTML
+  -CSS
   
