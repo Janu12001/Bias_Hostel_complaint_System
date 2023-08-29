@@ -2,5 +2,8 @@
 
 ## TECHNLOGIES USED
   -HTML
-  -CSS
+  - CSS
+  - JAVASCRIPT
+  - EJS
+    
   
