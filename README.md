@@ -5,5 +5,7 @@
   - CSS
   - JAVASCRIPT
   - EJS
+  - Nodejs
+  - Expressjs
     
   
